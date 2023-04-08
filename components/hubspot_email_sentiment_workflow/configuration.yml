@@ -2,5 +2,7 @@ description: This workflow takes an email ID, reads and processes the email, ana
   its sentiment. Based on the analyzed sentiment, it selects a pre-determined negative
   or positive response email template, and creates a complete response email in 'draft'
   state.
+input-class: HubspotEmailSentimentWorkflowIn
 name: HubspotEmailSentimentWorkflow
+output-class: HubspotEmailSentimentWorkflowOut
 parameters: {}
